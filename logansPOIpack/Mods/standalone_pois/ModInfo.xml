@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="standalone_pois" />
+		<Description value="New POIs and remastered A16 POIs" />
+		<Author value="loganjhunter" />
+		<Version value="1.19"/>
+		<Website value="" />
+	</ModInfo>
+</xml>
