@@ -1,1 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+<!-- Begin adding A16 POIs into RWG -->
 
+	<append xpath="/rwgmixer/prefab_rules/prefab_rule[@name='prefabList']">
+		<prefab name="../Prefabs/A16_business_red_brick_01"/>
+		<prefab name="../Prefabs/A16_business_red_brick_02"/>
+		<prefab name="../Prefabs/A16_business_red_brick_03"/>
+		<prefab name="../Prefabs/A16_business_red_brick_04"/>
+		<prefab name="../Prefabs/A16_business_red_brick_05"/>
+		<prefab name="../Prefabs/A16_business_red_brick_06"/>
+		<prefab name="../Prefabs/A16_business_red_brick_07"/>
+		<prefab name="../Prefabs/A16_business_tan_brick_01"/>
+		<prefab name="../Prefabs/A16_business_tan_brick_03"/>
+		<prefab name="../Prefabs/A16_business_tan_brick_04"/>
+		<prefab name="../Prefabs/A16_business_tan_brick_05"/>
+	</append>	
+	
+<!-- End adding A16 POIs into RWG -->
+
+<!-- Begin adding new house POIs into RWG -->	
+	<append xpath="/rwgmixer/prefab_rules/prefab_rule[@name='prefabList']">
+		<prefab name="../Prefabs/logans_pad"/>
+		<prefab name="../Prefabs/foursquarehouse_01"/>
+	</append>
+<!-- End adding new house POIs into RWG -->		
+
+<!-- Begin adding new business POIs into RWG -->	
+	<append xpath="/rwgmixer/prefab_rules/prefab_rule[@name='prefabList']">
+		<prefab name="../Prefabs/marybobs_pawn_shop"/>
+		<prefab name="../Prefabs/logans_bar"/>
+		<prefab name="../Prefabs/mini_golf"/>
+		<prefab name="../Prefabs/spartans_pizza"/>
+		<prefab name="../Prefabs/GranAuto_01"/>
+		<prefab name="../Prefabs/Als_Big_boy_beer_stand"/>
+		<prefab name="../Prefabs/SunshineElevatorHQ"/>
+	</append>
+	
+	
+<!-- Large POIs that do not spawn in for the most part in A18, hopeffully will change in A19-->
+	<append xpath="/rwgmixer/prefab_rules/prefab_rule[@name='prefabList']"> 
+ 	<!--	<prefab name="../../Mods/pois/Prefabs/OCE_Airlines" prob="500" min_count="1" min_repeat_distance="500"/>  -->
+> 
+		<prefab name="../Prefabs/water_park"/>
+	</append>
+<!-- End adding new commercial POIs into RWG -->
+	
+	
+</configs>
